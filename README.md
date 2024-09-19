@@ -22,10 +22,10 @@ This project provisions a development environment on AWS using Terraform. It dem
    git clone https://github.com/Mzokhulayo/terraform-development-environment.git
 
 2. Initialize terraform:
-   - `terraform init
+   - terraform init
 3. Review and apply the Terraform plan:
-   - `terraform plan
-   - `terraform apply
+   - terraform plan
+   - terraform apply
 4. SSH into the EC2 instance after deployment:
-   - `ssh -i path_to_your_key.pem ubuntu@your_ec2_public_ip
+   - sh -i path_to_your_key.pem ubuntu@your_ec2_public_ip
    - once inside the development run _docker --version_ to check the version of docker installed withyour instance creation
